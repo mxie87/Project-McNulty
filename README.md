@@ -8,30 +8,27 @@ Data at a glance:
 
 The most challenging part about this project was the limited descriptions given for each incident, which required manual labeling to specific the class of crime for each incident description. There were over 900 unique descriptions across 2.2 million incidents. Because these descriptions were vague and subjective, each incident was arbitrarily appended one of 3 classes: 
 
-•	Class 1 – serious & violent crimes / high priority
-•	Class 2  - less serious but has a potential to escalate to class 1
-•	Class 3 – non-violent / low priority
+* Class 1 – serious & violent crimes / high priority
+* Class 2  - less serious but has a potential to escalate to class 1
+* Class 3 – non-violent / low priority
 
 There was also obvious class imbalances with class 1 and class 2 crimes making up only 25% of the total. SMOTE and ADASYN were used for oversampling. 
 
 The features used were categorical:
-	Time of Day:
-	Morning - 6am to 12pm
-	Afternoon - 12pm to 6pm
-	Night - 6pm to 12am
-	Late Night - 12 am to 6am
-	Day of Week: SMTWTFS
-	Police Districts: 10 different districts
+* Time of Day:
+  * Morning - 6am to 12pm
+  * Afternoon - 12pm to 6pm 
+  * Night - 6pm to 12am
+  * Late Night - 12 am to 6am
+* Day of Week: SMTWTFS
+* Police Districts: 10 different districts
  
 Classifiers used includes:
-	Logistic Regression
-	Naïve Bayes
-	Gaussian
-	Bernoulli
-	Multinomial
-	Decision Tree
-	Random Forest
-	Adaboost
+* Logistic Regression
+*	Naïve Bayes
+* Decision Tree
+* Random Forest
+* Adaboost
 
 Accuracy, Precision, Recall, F-1 score and ROC AUC was used to evaluate the models.  
 
