@@ -32,4 +32,4 @@ Classifiers used includes:
 
 Accuracy, Precision, Recall, F-1 score and ROC AUC was used to evaluate the models.  
 
-Random Forest and Adaboost yielded similar and the best results, when class 1 and 2 were combined as 1 classes, giving an accuracy of .55, indicating that the model performed better than random guessing.
+Random Forest and Adaboost yielded similar and the best results, when class 1 and 2 were combined as 1 class, giving an accuracy of .55, indicating that the model performed better than random guessing.
