@@ -1,3 +1,5 @@
+**NOTE: please use nbviewer to view jupyter notebook files if it does not load. Simply copy the link to the jupyter notebook file, go to this website: https://nbviewer.jupyter.org/ and paste into the box.**
+
 The goal of this project was to predict the “types” of crime, given a particular time and location in the city of San Francisco, using machine learning algorithms. The data set is a popular dataset available on Kaggle (https://www.kaggle.com/c/sf-crime). 
 
 Data at a glance:
